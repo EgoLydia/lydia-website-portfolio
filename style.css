@@ -303,8 +303,8 @@ li.glide-slide {
   height: 100%;
   white-space: normal;
   width: 100%;
-  margin-right: 5px;
-  margin-left: 5px;
+  /* margin-right: 5px;
+  margin-left: 5px; */
   z-index: 100;
 }
 
@@ -332,7 +332,6 @@ li.glide-slide {
 .glide-slide h2 {
   font-size: 15px;
   font-weight: 600;
-  /* scroll-snap-align: left; */
 }
 
 .color-primary {
@@ -354,6 +353,7 @@ li.glide-slide {
   /* background-color: red; */
   background-position: center center;
   background-repeat: no-repeat;
+  cursor: pointer;
 }
 
 .glide-control-next {
@@ -371,6 +371,7 @@ li.glide-slide {
 
   background-position: center center;
   background-repeat: no-repeat;
+  cursor: pointer;
 }
 
 .btn-outline-primary {
@@ -700,8 +701,8 @@ padding: 0px;
     height: 100%;
     white-space: normal;
     width: 50%;
-    margin-right: 5px;
-    margin-left: 5px;
+    /* margin-right: 5px;
+    margin-left: 5px; */
   }
 
   .contact-form {
@@ -883,8 +884,8 @@ padding: 0px;
     height: 100%;
     white-space: normal;
     width: 33%;
-    margin-right: 5px;
-    margin-left: 5px;
+    /* margin-right: 5px;
+    margin-left: 5px; */
   }
 
   .portfolio-button {
