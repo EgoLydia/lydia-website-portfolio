@@ -288,27 +288,30 @@ hr {
   display: none;
 }
 
-/* #services {
-  position: relative;
-  z-index: 10;
+#services {
+  /* position: relative; */
+  z-index: 1000;
   padding-top: 40px;
-} */
+}
 
 li.glide-slide {
   padding: 0 30px;
-}
-
-.slide-icon{
-  /* width: 100%; */
 }
 
 .glide-slide {
   flex-shrink: 0;
   height: 100%;
   white-space: normal;
-  width: 400px;
+  width: 100%;
   margin-right: 5px;
   margin-left: 5px;
+  z-index: 100;
+}
+
+.slides {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .glide-slides {
@@ -316,11 +319,11 @@ li.glide-slide {
   overflow: hidden;
   flex-shrink: 0;
   padding: 0;
-  position: relative;
+  /* position: relative; */
   z-index: 5;
   flex-wrap: nowrap;
   white-space: nowrap;
-  max-width: 100%;
+  max-width: calc(100vw - 100px);
   backface-visibility: hidden;
 }
 
@@ -334,9 +337,9 @@ li.glide-slide {
 }
 
 .glide-control-prev {
-  position: absolute;
-  top: 40%;
-  right: 85%;
+  /* position: absolute; */
+  /* top: 50%; */
+  /* left: 0; */
   width: 40px;
   height: 40px;
   border: none;
@@ -344,23 +347,25 @@ li.glide-slide {
   background-size: contain;
   opacity: 0.2;
   background-size: 40px;
+  z-index: 1000;
+  /* background-color: red; */
   background-position: center center;
   background-repeat: no-repeat;
 }
 
 .glide-control-next {
-  position: absolute;
-  right: 0;
-  top: 40%;
-  left: 85%;
+  /* position: absolute; */
+  /* right: 0; */
+  /* top: 0; */
   width: 40px;
   height: 40px;
-  background: 0 0;
   border: none;
   background: url(https://jonny.me/dist/images/right-chevron.svg);
   background-size: contain;
   opacity: 0.2;
   background-size: 40px;
+  z-index: 1000;
+
   background-position: center center;
   background-repeat: no-repeat;
 }
@@ -687,14 +692,14 @@ padding: 0px;
     width: 55%;
   }
 
-  /* .glide-slide {
+  .glide-slide {
     flex-shrink: 0;
     height: 100%;
     white-space: normal;
-    width: 350px;
+    width: 50%;
     margin-right: 5px;
     margin-left: 5px;
-  } */
+  }
 
   .contact-form {
     width: 90%;
@@ -859,17 +864,10 @@ padding: 0px;
     margin-left: auto;
   }
 
-  .glide-control-next {
-    left: 95%;
-  }
-  .glide-control-prev {
-    right: 95%;
-  }
-
   .glide-track {
-    max-width: 75%;
-    margin-left: auto;
-    margin-right: auto;
+    /* max-width: 75%; */
+    /* margin-left: auto;
+    margin-right: auto; */
   }
 
   .glide-slide p {
@@ -877,11 +875,17 @@ padding: 0px;
     line-height: 1.6;
   }
 
+  .glide-slides {
+   
+    max-width: calc(100vw - 500px);
+  }
+  
+
   .glide-slide {
     flex-shrink: 0;
     height: 100%;
     white-space: normal;
-    width: 380px;
+    width: 33%;
     margin-right: 5px;
     margin-left: 5px;
   }
