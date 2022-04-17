@@ -64,13 +64,8 @@ hr {
   gap: 9px;
   justify-content: center;
   align-items: center;
-  /* flex: 1 1 75%;
-    max-width: 75%; */
 }
 
-.h-100 {
-  /* height: 100% !important; */
-}
 
 .header-burger {
   display: block;
@@ -170,7 +165,6 @@ hr {
 }
 
 .hero .section {
-  /* padding-top: 100px; */
   padding-bottom: 80px;
 }
 
@@ -289,7 +283,6 @@ hr {
 }
 
 #services {
-  /* position: relative; */
   z-index: 1000;
   padding-top: 40px;
 }
@@ -303,8 +296,6 @@ li.glide-slide {
   height: 100%;
   white-space: normal;
   width: 100%;
-  /* margin-right: 5px;
-  margin-left: 5px; */
   z-index: 100;
 }
 
@@ -319,8 +310,6 @@ li.glide-slide {
   overflow: hidden;
   flex-shrink: 0;
   padding: 0;
-  /* scroll-snap-type: x mandatory; */
-  /* position: relative; */
   scroll-behavior: smooth;
   z-index: 5;
   flex-wrap: nowrap;
@@ -339,9 +328,6 @@ li.glide-slide {
 }
 
 .glide-control-prev {
-  /* position: absolute; */
-  /* top: 50%; */
-  /* left: 0; */
   width: 40px;
   height: 40px;
   border: none;
@@ -350,16 +336,12 @@ li.glide-slide {
   opacity: 0.2;
   background-size: 40px;
   z-index: 1000;
-  /* background-color: red; */
   background-position: center center;
   background-repeat: no-repeat;
   cursor: pointer;
 }
 
 .glide-control-next {
-  /* position: absolute; */
-  /* right: 0; */
-  /* top: 0; */
   width: 40px;
   height: 40px;
   border: none;
@@ -368,7 +350,6 @@ li.glide-slide {
   opacity: 0.2;
   background-size: 40px;
   z-index: 1000;
-
   background-position: center center;
   background-repeat: no-repeat;
   cursor: pointer;
@@ -424,6 +405,7 @@ h2.pre {
   padding-top: 0px;
   padding-bottom: 100px;
 }
+
 .portfolio-img {
   width: 70%;
   padding-top: 0;
@@ -453,8 +435,6 @@ h2.pre {
   margin-bottom: 70px;
   color: #fff;
 }
-.pricing {
-}
 
 .mt-11 {
   padding-top: 1.5rem;
@@ -476,9 +456,6 @@ h2.pre {
   position: relative;
   margin-left: auto;
   margin-right: auto;
-}
-
-.pricing-row {
 }
 
 .pricing-plan {
@@ -674,7 +651,6 @@ small {
 }
 
 .footer-menu-item {
-  /* display: inline-block; */
   padding: 5px 16px;
 }
 
@@ -685,7 +661,7 @@ small {
 
 .footer-menu {
   display: flex;
-padding: 0px;
+  padding: 0px;
   align-items: center;
   justify-content: center;
   margin: 0 auto;
@@ -701,8 +677,6 @@ padding: 0px;
     height: 100%;
     white-space: normal;
     width: 50%;
-    /* margin-right: 5px;
-    margin-left: 5px; */
   }
 
   .contact-form {
@@ -792,7 +766,6 @@ padding: 0px;
   .mt-10 {
     margin-left: 0;
     margin-right: 0;
-    /* width: 0; */
   }
 
   .preview {
@@ -816,7 +789,6 @@ padding: 0px;
 
   .header-status {
     font-size: 20px;
-    /* margin-top: 20px; */
   }
 
   .header-status::before {
@@ -862,7 +834,6 @@ padding: 0px;
   }
 
   .section {
-    /* padding-top: 60px; */
     padding-bottom: 60px;
     margin-right: auto;
     margin-left: auto;
@@ -874,18 +845,14 @@ padding: 0px;
   }
 
   .glide-slides {
-   
     max-width: calc(100vw - 500px);
   }
   
-
   .glide-slide {
     flex-shrink: 0;
     height: 100%;
     white-space: normal;
     width: 33%;
-    /* margin-right: 5px;
-    margin-left: 5px; */
   }
 
   .portfolio-button {
@@ -894,21 +861,13 @@ padding: 0px;
   }
 
   .portfolio-text {
-    /* flex: 0 0 42%; */
     padding-right: 30px;
     max-width: 42%;
     text-align: left;
-    /* margin-left: auto; */
-    /* margin-right: auto; */
-    /* margin-left: 150px; */
   }
 
   .portfolio-img {
-    /* height: 100%; */
     width: 700px;
-    /* margin-right: auto;
-        margin-left: auto; */
-    /* flex: 0 0 30%; */
   }
 
   .column {
@@ -922,11 +881,6 @@ padding: 0px;
   h3 {
     font-size: 30px;
   }
-
-  /* .pricing{
-  padding-top: 60px;
-  padding-bottom: 60px;
-} */
 
   .pricing-row {
     display: flex;
