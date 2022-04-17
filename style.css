@@ -319,7 +319,9 @@ li.glide-slide {
   overflow: hidden;
   flex-shrink: 0;
   padding: 0;
+  /* scroll-snap-type: x mandatory; */
   /* position: relative; */
+  scroll-behavior: smooth;
   z-index: 5;
   flex-wrap: nowrap;
   white-space: nowrap;
@@ -330,6 +332,7 @@ li.glide-slide {
 .glide-slide h2 {
   font-size: 15px;
   font-weight: 600;
+  /* scroll-snap-align: left; */
 }
 
 .color-primary {
@@ -862,12 +865,6 @@ padding: 0px;
     padding-bottom: 60px;
     margin-right: auto;
     margin-left: auto;
-  }
-
-  .glide-track {
-    /* max-width: 75%; */
-    /* margin-left: auto;
-    margin-right: auto; */
   }
 
   .glide-slide p {
