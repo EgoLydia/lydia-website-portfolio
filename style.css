@@ -216,7 +216,7 @@ hr {
   bottom: -229px;
   opacity: 1;
   left: 0;
-  height: 330px;
+  height: 350px;
   position: absolute;
   z-index: 0;
   background-position: center top;
@@ -298,6 +298,10 @@ li.glide-slide {
   padding: 0 30px;
 }
 
+.slide-icon{
+  /* width: 100%; */
+}
+
 .glide-slide {
   flex-shrink: 0;
   height: 100%;
@@ -313,6 +317,7 @@ li.glide-slide {
   flex-shrink: 0;
   padding: 0;
   position: relative;
+  z-index: 5;
   flex-wrap: nowrap;
   white-space: nowrap;
   max-width: 100%;
