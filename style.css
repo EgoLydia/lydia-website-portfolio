@@ -654,6 +654,10 @@ small {
   padding: 5px 16px;
 }
 
+.footer-menu-link:hover{
+  color: #5b43d6;
+}
+
 .footer-menu-link {
   color: gray;
   background-color: transparent;
